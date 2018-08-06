@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second">
+
+    <TextView
+        style="@style/checkDefault"
+        android:text="Your Submissions "
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="22sp"
+        android:layout_marginLeft="16sp"
+        android:paddingLeft="0sp"
+        android:layout_marginTop="12dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <CheckBox
+        style="@style/checkDefault"
+        android:id="@+id/toys"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40sp"
+        android:text="Toys" />
+
+    <CheckBox
+        style="@style/checkDefault"
+        android:id="@+id/footwear"
+        android:text="Footwears" />
+
+    <CheckBox
+        style="@style/checkDefault"
+        android:id="@+id/clothes"
+        android:text="Clothes" />
+
+    <CheckBox
+        style="@style/checkDefault"
+        android:id="@+id/books"
+        android:text="Books" />
+
+    <CheckBox
+        style="@style/checkDefault"
+        android:id="@+id/food"
+        android:text="Food" />
+
+    <CheckBox
+        style="@style/checkDefault"
+        android:id="@+id/Stationary"
+        android:text="Stationary" />
+
+    <EditText
+        android:id="@+id/other"
+        style="@style/checkDefault"
+        android:hint="Other Submissions"
+        android:paddingLeft="0sp"/>
+
+    <Button
+        style="@style/Default"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:text="Submit"
+        android:onClick="Submission"
+        android:background="?attr/colorButtonNormal"
+        />
+
+</LinearLayout>

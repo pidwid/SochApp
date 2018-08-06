@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Soch - Donate With Love</string>
+    <string name="donation_subject">Donation by</string>
+    <string name="age">age : </string>
+    <string name="email">email : </string>
+    <string name="mobile">mobile no. : </string>
+    <string name="donate">want to donate following items</string>
+    <string name="toys">Toys : </string>
+    <string name="footwear"> Footwear : </string>
+    <string name="clothes"> Clothes : </string>
+    <string name="books"> Books : </string>
+    <string name="food"> Food : </string>
+    <string name="stationary"> Stationary : </string>
+    <string name="last">for a noble cause.</string>
+    <string name="thank">Thank you</string>
+</resources>
